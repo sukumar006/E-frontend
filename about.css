@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Matemasie&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Lora:ital,wght@0,400..700;1,400..700&family=Matemasie&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+*{
+    
+    font-family: "Lora";
+}
+
+header h1{
+    font-family: "Lora";
+    color: black;
+    text-align: center;
+    font-size: 50px;
+}
+.sec1 img{
+    height: 400px;
+    width: 350px;
+    
+}
+.sec1{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.con1{
+    width: 45%;
+    background-color: rgba(105, 105, 105, 0.41);
+    padding: 40px;
+    border-radius: 30px;
+    
+}
+.con1 h1, p{
+    color: black;
+
+}
+.con1 h1{
+    font-size: xx-large;
+}
+.con1 p{
+    font-size: large;
+    font-weight: 600;
+}
+
+.sec2{
+    margin-top: 20px;
+    background-color: black;
+padding-top: 40px;
+padding-bottom: 40px;
+}
+.sec2 div h1,.sec2 h1{
+    color: white;
+    font-size: larger;
+}
+.them{
+    text-align: center;
+    
+}
+.count{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.l1 span{
+    color: white;
+}
+
+.l2 p,.l3 p,.l4 p{
+    color: white;
+}
