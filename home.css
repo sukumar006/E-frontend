@@ -1,0 +1,260 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Matemasie&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Lora:ital,wght@0,400..700;1,400..700&family=Matemasie&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+*{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    
+}
+.body button{
+    padding: 10px;
+    background-color: rgb(2, 63, 16);
+    border-radius: 9px;
+    border: 0;
+}
+.body a{
+    color:rgb(246, 241, 241);
+    font-weight: bolder;
+    font-size: larger;
+   
+}
+.head{
+    background:black;
+    font-family: "Courgette", cursive;
+  font-weight: 600;
+  font-style: normal;
+  display: flex;
+  justify-content: space-evenly;
+  /* position: fixed;
+  top: 0;
+  right: 0;
+  left: 0; */
+  color: white;
+}
+
+ 
+.brand img{
+    height: 90px;
+    width: 90;
+}
+
+.menu ul{
+    display: flex;
+    gap: 35px;
+}
+.menu a:hover{
+    color: darkgreen;
+    
+}
+img{
+    width: 100%;
+}
+ .body{
+    background-image: url(wallpaper.png);
+    background-size: cover;
+    width: 100%;
+    height: 87vh;
+    position: relative;
+    
+ }
+ .con{
+    position: absolute;
+    text-align: center;
+    top: 200px;
+    left: 38%;
+    
+ }
+ .con h1{
+    font-family: "Courgette";
+    font-size: 60px;
+    color: white;
+ }
+ .con span{
+    font-family: "Lora";
+    font-size: 30px;
+ }
+ .con button{
+    color: black;
+ }
+  .sec3{
+    background-color: black;
+  }
+/* .Mainbox{
+    
+    display: flex;
+     justify-content: space-around;
+     align-items: center;
+     max-width: 1200px;
+     margin: 0 auto;
+}
+ 
+.sec3 {
+    background-color: rgb(42, 41, 41);
+    color:#fff;
+    padding: 20px;
+}
+.Mainbox div{
+    text-align: center;
+    padding: 20px;
+}
+.Mainbox h1{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.Mainbox span{
+    font-size: 30px;
+    margin-bottom: 10px;
+    display: block;
+}
+ */
+
+ .sec3{
+    justify-content: space-around;
+ }
+.Mainbox{
+    
+    display: flex;
+    justify-content: space-around;
+   padding-top: 30px;
+   padding-bottom: 30px;
+   font-family: "Lora";
+   font-size: medium;
+}
+.al{
+    display: flex;
+}
+ .box1{
+    background-color: rgb(55, 55, 55);
+    padding: 10px;;
+ }
+ .box2{
+    background-color: rgb(55, 55, 55);
+    padding: 10px;;
+ }
+ .box3{
+    background-color: rgb(55, 55, 55);
+    padding: 10px;;
+ }
+ .box4{
+    background-color: rgb(55, 55, 55);
+    padding: 10px;;
+ }
+
+
+ .sec4{
+    background-color: white;
+    color: black;
+ }
+ .best{
+    margin-top: 70px;
+ }
+ .best h1{
+    
+    color: black;
+    font-family: "Lora";
+    text-align: center;
+ }
+
+ .p1,.p2,.p3,.p4{
+   background-color: white;
+   width: 200px;
+   height: 300px;
+   padding-top: 25px;
+   padding-left: 25px;
+   padding-right: 25px;
+   text-align: center;
+ }
+ .p3 img,.p4 img{
+    height: 200px;
+ }
+ .product{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    background-color: rgba(245, 244, 244, 0.845);
+    padding: 25px;
+ }
+ .p4 p,.p2 p,.p3 p,.p1 p{
+    color: black;
+    font-weight: 400;
+ }
+
+ .pn{
+    color: black;
+    font-weight: bolder;
+    font-family: "Lora";
+    
+ }
+ .product2{
+    background-color: beige;
+    display: flex;
+    justify-content: space-around;
+    
+ }
+
+ .p11,.p12,.p13{
+    background-color: white;
+    height: 350px;
+    width: 350px;
+ }
+
+ .product2 div img{
+    height: 200px;
+    width: 250px;
+ }
+ .product2 p,.product2 span{
+    color: black;
+    font-family: "Lora";
+ }
+ .product2 p{
+    font-size: x-large;
+    font-weight: bolder;
+ }
+ .product2 span{
+    font-size: medium;
+    font-weight: 900;
+ }
+  .btn{
+    display: flex;
+    justify-content: space-around;
+  }
+  .btn button{
+   background-color: darkgreen;
+   height: 25px;
+   padding: 5px;
+   border-radius: 10px;
+   border: 0;
+   margin-top: 50px;
+   font-weight: bolder;
+  }
+
+  .last{
+    background-color: black;
+ display: flex;
+ justify-content: space-around;
+  }
+
+  .l1 img{
+    height: 150px;
+    width: 180px;
+  }
+
+  .last div p{
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: "Lora";
+  }
+  .last div span a{
+    font-size: medium;
+    font-weight: 600;
+    font-family: "Lora";
+    color: grey;
+  }
+  .a a:hover{
+    color: white;
+  }
+  .al h1{
+   color: white;
+  }
